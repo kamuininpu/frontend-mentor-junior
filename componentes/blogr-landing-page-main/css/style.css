@@ -1,0 +1,25 @@
+/* Feel free to remove these styles or customise in your own stylesheet */
+  
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 50%, 45%); }
+
+header {
+    background-color: hsl(13, 100%, 72%);
+    background-image: url('./../images/bg-pattern-intro.svg');
+    height: 200px;
+}
+
+nav ul {    
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li ul {
+    visibility: hidden;
+}
+  
